@@ -20,6 +20,6 @@ require('./utils/cmdHandler.js')(client);
 
 // Event Handler
 
-require("./utils/eventHandler.js")(client)
+require("./utils/eventHandler.js")(client);
 
 client.login(process.env.TOKEN);
